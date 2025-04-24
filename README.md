@@ -15,11 +15,15 @@ Cho file sv_tnut.sql (1.6MB)
 10. HÃY NHẬP SQL ĐỂ LIỆT KÊ CÁC SV NỮ NGÀNH KMT CÓ TRONG BẢNG SV (TRÌNH BÀY QUÁ TRÌNH SUY NGHĨ VÀ GIẢI NHỮNG VỨNG MẮC)
 # bai lam
 1. Các bước để import được dữ liệu trong sv_tnut.sql vào sql server :
-   Tạo databases tên sv_tnut
+  - B1: Mở SQL Server Management Studio (SSMS)
+  - B2:  Chọn Database ( đặt tên sv_tnut )
+  - B3: Mở và kiểm tra tệp sv_tnut.sql
+  - B4 : Import tệp .sql vào SQL Server
+  - B5 : Kiểm tra kết quả
 2. dữ liệu đầu vào là tên của sv; sđt; ngày, tháng, năm sinh của sinh viên 
- Họ tên : Ngô Thị Thùy Linh
- Sdt : 0337036640
- Ngày,tháng, năm sinh : 11/05/2004
+- Họ tên : Ngô Thị Thùy Linh
+- Sdt : 0337036640
+- Ngày,tháng, năm sinh : 11/05/2004
 
 3. nhập sql để tìm xem có những sv nào trùng hoàn toàn 2004-05-11 với em
    
@@ -46,5 +50,11 @@ Cho file sv_tnut.sql (1.6MB)
    ![image](https://github.com/user-attachments/assets/4e9d5441-fe89-44f5-bed0-64c4affdf950)
 
 9. BẢNG SV CÓ HƠN 9000 ROWS, HÃY LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT, GIẢI THÍCH.
-    
+
+    ![image](https://github.com/user-attachments/assets/94d16e15-0e80-4640-aa81-325dd2e96ff4)
+
 10. HÃY NHẬP SQL ĐỂ LIỆT KÊ CÁC SV NỮ NGÀNH KMT CÓ TRONG BẢNG SV (TRÌNH BÀY QUÁ TRÌNH SUY NGHĨ VÀ GIẢI NHỮNG VỨNG MẮC)
+    - Nếu bảng SV không có cột giới tính nhưng em muốn lọc các sinh viên nữ, thì cách em đang làm là dựa vào họ đệm (hodem) và tên (ten)
+      
+    ![image](https://github.com/user-attachments/assets/37a23bb3-2a90-4244-b641-81cd26fdb565)
+
