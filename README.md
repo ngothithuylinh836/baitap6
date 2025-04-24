@@ -26,14 +26,26 @@ Cho file sv_tnut.sql (1.6MB)
 - Ngày,tháng, năm sinh : 11/05/2004
 
 3. nhập sql để tìm xem có những sv nào trùng hoàn toàn 2004-05-11 với em
-   
+ - Kiểm tra sinh viên nào có cùng ngày sinh cưa mình .Tìm người có ngày sinh cụ thể để cập nhật thông tin. Kiểm tra sinh viên trùng ngày sinh (có thể cần cho thống kê).
+
+
    ![image](https://github.com/user-attachments/assets/12e4915b-8b28-4ff0-be38-2cc4f5f4189c)
 
 4. nhập sql để tìm xem có những sv nào trùng ngày 11 và tháng 5 với em?
+- em đang lấy danh sách tất cả sinh viên (dòng SELECT *) từ bảng sv có ngày sinh là 11/05 (ngày 11 tháng 5), bất kể năm sinh.
+
 
    ![image](https://github.com/user-attachments/assets/3d260e7a-be3e-4f45-9e03-a6205c5d5dbb)
 
 5. nhập sql để tìm xem có những sv nào trùng tháng 05 và năm sinh 2004 với em?
+
+   - SELECT *: Lấy toàn bộ thông tin (masv, hodem, ten, ns, lop, sdt...) từ bảng SV.
+
+   - FROM SV: Truy vấn từ bảng SV (có thể là bảng Sinh Viên).
+
+   - WHERE MONTH(ns) = 5: Lọc các dòng mà tháng của ngày sinh (ns) là tháng 
+
+   - AND YEAR(ns) = 2004: Đồng thời năm sinh là 2004.
 
 ![image](https://github.com/user-attachments/assets/d6ac2da1-d501-4f66-b8e3-d51e450c775d)
 
